@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Circular Std';
+    src: url('../fonts/CircularStd-MediumItalic.eot');
+    src: local('Circular Std Medium Italic'), local('CircularStd-MediumItalic'),
+        url('../fonts/CircularStd-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CircularStd-MediumItalic.woff2') format('woff2'),
+        url('../fonts/CircularStd-MediumItalic.woff') format('woff'),
+        url('../fonts/CircularStd-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Circular Std';
+    src: url('../fonts/CircularStd-Black.eot');
+    src: local('Circular Std Black'), local('CircularStd-Black'),
+        url('../fonts/CircularStd-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CircularStd-Black.woff2') format('woff2'),
+        url('../fonts/CircularStd-Black.woff') format('woff'),
+        url('../fonts/CircularStd-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Circular Std';
+    src: url('../fonts/CircularStd-Medium.eot');
+    src: local('Circular Std Medium'), local('CircularStd-Medium'),
+        url('../fonts/CircularStd-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CircularStd-Medium.woff2') format('woff2'),
+        url('../fonts/CircularStd-Medium.woff') format('woff'),
+        url('../fonts/CircularStd-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Circular Std';
+    src: url('../fonts/CircularStd-Bold.eot');
+    src: local('Circular Std Bold'), local('CircularStd-Bold'),
+        url('../fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CircularStd-Bold.woff2') format('woff2'),
+        url('../fonts/CircularStd-Bold.woff') format('woff'),
+        url('../fonts/CircularStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Circular Std';
+    src: url('../fonts/CircularStd-BlackItalic.eot');
+    src: local('Circular Std Black Italic'), local('CircularStd-BlackItalic'),
+        url('../fonts/CircularStd-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CircularStd-BlackItalic.woff2') format('woff2'),
+        url('../fonts/CircularStd-BlackItalic.woff') format('woff'),
+        url('../fonts/CircularStd-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Circular Std Book';
+    src: url('../fonts/CircularStd-BookItalic.eot');
+    src: local('Circular Std Book Italic'), local('CircularStd-BookItalic'),
+        url('../fonts/CircularStd-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CircularStd-BookItalic.woff2') format('woff2'),
+        url('../fonts/CircularStd-BookItalic.woff') format('woff'),
+        url('../fonts/CircularStd-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Circular Std';
+    src: url('../fonts/CircularStd-BoldItalic.eot');
+    src: local('Circular Std Bold Italic'), local('CircularStd-BoldItalic'),
+        url('../fonts/CircularStd-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CircularStd-BoldItalic.woff2') format('woff2'),
+        url('../fonts/CircularStd-BoldItalic.woff') format('woff'),
+        url('../fonts/CircularStd-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Circular Std Book';
+    src: url('../fonts/CircularStd-Book.eot');
+    src: local('Circular Std Book'), local('CircularStd-Book'),
+        url('../fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CircularStd-Book.woff2') format('woff2'),
+        url('../fonts/CircularStd-Book.woff') format('woff'),
+        url('../fonts/CircularStd-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.bg-light{background: linear-gradient(180deg, #108AE2 0%, #003282 100%);padding:6% 5%;line-height: 18.97px;font-size:14px;font-family: 'Circular Std'; font-style: normal;}
+.bg-light *{font-family: "Circular Std";}
+.normal-text{margin:10px 0px 24px;}
+.form-steps{display:none;}
+.form-steps.active{display:block;}
+.form-steps .g-5{background: #F1F7FF;margin:0.7% 1.2%;padding:0px;}
+.order-md-last{background: #FFFFFF;margin:0px;padding:1.8rem 3.7rem;}
+.form-label{margin-bottom:0.1em;font-weight:400;font-family: "Circular Std";line-height: 18.97px;font-size:14px;font-style: normal;}
+.form-control{opacity:30%;font-style: normal;border:0.12rem solid rgba(0, 0, 0, 0.3);color: rgba(0, 0, 0, 0.8);font-size:15px;font-style: normal;}
+.rounded-4 { border-radius:.8rem; }
+.rounded-5 { border-radius:1.35rem; }
+.rounded-5r { border-top-right-radius:1.35rem;border-bottom-right-radius:1.35rem; }
+.rounded-5l { border-top-left-radius:1.35rem;border-bottom-left-radius:1.35rem; }
+.w-100,.w-100:hover,.w-100:visited{color:#283337;background:#FFD400 !important;padding: 10px 30px 10px 30px;border-radius:10px;border-color:#FFD400 !important;box-shadow:1px 1px 4px rgba(0, 0, 0, 0.25); }
+small{font-size:10px;line-height:12.65px;color:rgba(0, 0, 0, 0.5);}
+.mobile-view{display:none;}
+#complexText{color:#FF5E5E;font-size:12px;line-height:15.18px;margin-top:6px;}
+#complexTextBox{width:65px;height:10px;border-radius:50px;background:#FF5E5E;font-size:12px;line-height:15.18px;margin-top:6px;}
+.form-control.is-invalid, .was-validated .form-control:invalid{border-color:#FF5E5E;}
+.full-width{margin-top:0rem;}
+.form-check-input{border:0.12rem solid rgba(0, 0, 0, 0.3);}
+.form-check-label{padding-top:1px;}
+.form-check-label a{text-decoration:underline solid black 0.1rem !important;text-underline-offset:3px;}
+.note-info{font-weight:450;font-family: "Circular Std";line-height:15.18px;font-size:12px;font-style: normal;color:rgba(0, 0, 0, 1);margin-bottom:12px;}
+input[type=text]::placeholder,input[type=email]::placeholder{color:rgba(0, 0, 0, 0.6);font-size:15px;font-style: normal;opacity: 1; /* Firefox */}
+.select-input, input[type=text], input[type=text]::-ms-input-placeholder, input[type=email], input[type=email]::-ms-input-placeholder { /* Edge 12-18 */color:rgba(0, 0, 0, 0.6);font-size:15px;font-style: normal;}
+.form-control:disabled, .form-control[readonly]{background: rgba(212, 212, 212, 0.6);border: 1px solid rgba(0, 0, 0, 0.2);color:rgba(255, 0, 0, 0.2);}
+.form-control[readonly]{background: rgba(212, 212, 212, 0.8);border: 1px solid rgba(0, 0, 0, 0.2);color:rgba(0, 0, 0, 0.2);}
+.form-control[readonly]::placeholder{color:rgba(0, 0, 0, 0.2);font-size:15px;font-style: normal;opacity: 1; /* Firefox */}
+.form-control[readonly]::-ms-input-placeholder{/* Edge 12-18 */color:rgba(0, 0, 0, 0.2);font-size:15px;font-style: normal;}
+@media only screen and (max-width: 768px) {
+	.mobile-view{display:block;}
+	.desktop-view{display:none;}
+	.rounded-5r{border-radius:1.35rem;}
+	.mobile-form-fields{padding:12px;}
+	.full-width{margin-top:1rem;}
+}
